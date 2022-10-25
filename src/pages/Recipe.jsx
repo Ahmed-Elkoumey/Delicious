@@ -51,7 +51,7 @@ export default function Recipe() {
           </Button>
 
           <Button
-            className={`rounded-1 ${activeTab === 'instructions' ? 'active' : ''}`}
+            className={`rounded-1 ${activeTab === 'ingredients' ? 'active' : ''}`}
             onClick={() => setActiveTab("ingredients")}
           >
             Ingredients
